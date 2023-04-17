@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup Label="Nuget">
-    <PackageId>ppy.Veldrid.SPIRV</PackageId>
+    <PackageId>ABEngine.Veldrid.SPIRV</PackageId>
     <Version>0.0.0</Version>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>ppy.Veldrid.SPIRV</AssemblyName>
+    <AssemblyName>ABEngine.Veldrid.SPIRV</AssemblyName>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <DocumentationFile>$(BinDir)\$(AssemblyName).xml</DocumentationFile>
     <NativeAssetsPath Condition="'$(NativeAssetsPath)' == ''">$(RepositoryRootDirectory)/build/</NativeAssetsPath>
@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
-    <PackageReference Include="ppy.Veldrid" Version="4.9.0-g7363bb645c" />
+    <PackageReference Include="ABEngine.Veldrid" Version="4.9.1-g6c85a5e906" />
   </ItemGroup>
 
   <ItemGroup>
